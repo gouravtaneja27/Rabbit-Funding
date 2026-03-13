@@ -31,7 +31,7 @@ const Navbar = () => {
                     </svg>
                 </div>
 
-                <ul className="hidden md:flex gap-6 text-gray-700 font-medium ">
+                <ul className="hidden min-[900px]:flex gap-6 text-gray-700 font-medium">
                     <li className="font-montserrat font-semibold text-[16px] text-[#4E4E4E] cursor-pointer hover:text-black">Home</li>
                     <li className="font-montserrat font-semibold text-[16px] text-[#4E4E4E] cursor-pointer hover:text-black ">Programs</li>
                     <li className="font-montserrat font-semibold text-[16px] text-[#4E4E4E] cursor-pointer hover:text-black ">How It Works</li>
@@ -40,13 +40,12 @@ const Navbar = () => {
                 </ul>
 
 
-                <button className="w-[155px] h-[56px] hidden md:block border-2 border-[#2B2B2B] px-6 py-2 rounded-full hover:bg-green-600 hover:text-white transition font-montserrat font-semibold text-[16px] leading-[100%] tracking-normal">
+                <button className="w-[155px] h-[56px] hidden min-[900px]:block border-2 border-[#2B2B2B] px-6 py-2 rounded-full hover:bg-green-600 hover:text-white transition font-montserrat font-semibold text-[16px]">
                     Contact Us
                 </button>
 
-
                 <div
-                    className="md:hidden flex flex-col gap-[5px] cursor-pointer  relative z-[60]"
+                    className="min-[900px]:hidden flex flex-col gap-[5px] cursor-pointer relative z-[60]"
                     onClick={() => setMenu(!menu)}
                 >
                     <span className={`block w-6 h-[3px] bg-black transition-all duration-300 ${menu ? "rotate-45 translate-y-[7px]" : ""}`}></span>
@@ -55,10 +54,9 @@ const Navbar = () => {
                 </div>
 
             </div>
-
             <div
                 className={`fixed top-0 left-0 w-full h-screen bg-[#ECEFEC] z-50 flex flex-col items-center justify-center gap-8 transition-transform list-none duration-500 ${menu ? "translate-x-0" : "-translate-x-full"
-                    } md:hidden`}
+                    } min-[900px]:hidden`}
             >
 
                 <li>Home</li>

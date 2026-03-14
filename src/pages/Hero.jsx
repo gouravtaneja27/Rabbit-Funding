@@ -1,10 +1,15 @@
 
 
+
+
+
 import React from "react";
 import p from "../assets/p.webp";
 const Hero = () => {
     return (
         <div className="max-w-360 m-auto w-full mt-10 mb-22.5 ">
+
+
             <div className="px-4 lg:px-2 max-w-300 m-auto flex flex-col lg:flex-row items-center justify-between lg:gap-0 gap-10 w-full">
                 <div className="text-center lg:text-left">
                     <h1 className="font-bold text-[36px] sm:text-[44px] lg:text-[52px] leading-[120%] text-[#2B2B2B] max-w-122.5">
@@ -41,9 +46,13 @@ const Hero = () => {
                 </div>
             </div>
         </div>
+
     );
 };
 
 export default Hero;
+
+
+
 
 

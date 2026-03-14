@@ -1,0 +1,40 @@
+import React from "react";
+import rabbit from "../assets/rabbit.png";
+
+
+const WorkedRabbit = () => {
+    return (
+        <section className="w-full py-24 bg-[#EAF3E5] relative overflow-hidden">
+
+            
+           
+
+            <div className="max-w-[1200px] mx-auto px-6 text-center relative z-10">
+                <img
+                    src={rabbit}
+                    alt="rabbit"
+                    className="absolute inset-0 m-auto opacity-10    pointer-events-none"
+                />
+
+                <h2 className="text-[32px] lg:text-[40px] font-bold text-[#2B2B2B]">
+                    Worked With Rabbit?
+                </h2>
+                
+
+                <p className="mt-4 text-[#4E4E4E] text-[16px] max-w-[520px] mx-auto leading-[150%]">
+                    We love hearing success stories. Submit your testimonial
+                    and help others fund their story.
+                </p>
+
+                <button className="mt-8 px-8 py-4 rounded-full bg-[#7AC943] text-white font-medium flex items-center gap-2 mx-auto hover:bg-transparent border border-transparent hover:border-[#2B2B2B] hover:text-[#2B2B2B] transition-all duration-300">
+                    Share Yours
+                    <span>↗</span>
+                </button>
+
+            </div>
+
+        </section>
+    );
+};
+
+export default WorkedRabbit;

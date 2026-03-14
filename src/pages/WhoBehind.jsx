@@ -24,7 +24,7 @@ const WhoBehind = () => {
                         Our team isn’t just from finance. We’re ex-operators, former
                         founders, and recovering bankers who got tired of saying “no”
                         when we knew there was a better way to fund.
-                    </p>
+                    </p> 
 
                 </div>
             </div>

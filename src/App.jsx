@@ -3,6 +3,7 @@ import Navbar from './component/Navbar'
 import Hero from './pages/Hero'
 import BetterTech from './pages/BetterTech'
 import WhoBehind from './pages/WhoBehind'
+import Testimonials from './pages/Testimonials'
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <Hero />
       <BetterTech />
       <WhoBehind />
+      <Testimonials />
    
     </>
   )

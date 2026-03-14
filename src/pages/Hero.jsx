@@ -16,10 +16,10 @@ const Hero = () => {
                         <br className="hidden lg:block" /> We’re real underwriters — with real decision-making power —
                         using tech to move faster, not think for us.
                     </p>
-                    <button className="mt-8 w-[231px] h-[60px] flex items-center justify-center rounded-full bg-[#7AC943] text-white font-medium mx-auto md:mx-0">
+                    <button className="mt-8 w-[231px] h-[60px] flex items-center justify-center rounded-full bg-[#7AC943] hover:bg-transparent border border-transparent hover:text-[#2b2b2b] hover:border-[#2b2b2b] hover:transition-all hover:ease-in-out hover:duration-500 text-white font-medium mx-auto md:mx-0 cursor-pointer">
                         Join the Success <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_3008_8)">
-                                <path d="M15 10.41L6.393 19.017L4.979 17.603L13.586 8.99603H6V6.99603H17V17.996H15V10.411V10.41Z" fill="#FEFEFE" />
+                                <path d="M15 10.41L6.393 19.017L4.979 17.603L13.586 8.99603H6V6.99603H17V17.996H15V10.411V10.41Z" fill="currentColor" />
                             </g>
                             <defs>
                                 <clipPath id="clip0_3008_8">

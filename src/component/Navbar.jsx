@@ -32,11 +32,11 @@ const Navbar = () => {
                 </div>
 
                 <ul className="hidden min-[900px]:flex gap-6 text-gray-700 font-medium">
-                    <li className="font-montserrat font-semibold text-[16px] text-[#4E4E4E] cursor-pointer hover:text-black">Home</li>
-                    <li className="font-montserrat font-semibold text-[16px] text-[#4E4E4E] cursor-pointer hover:text-black ">Programs</li>
-                    <li className="font-montserrat font-semibold text-[16px] text-[#4E4E4E] cursor-pointer hover:text-black ">How It Works</li>
-                    <li className="font-montserrat font-semibold text-[16px] text-[#4E4E4E] cursor-pointer hover:text-black li ">Testimonial</li>
-                    <li className="font-montserrat font-semibold text-[16px] text-[#4E4E4E] cursor-pointer hover:text-black ">About</li>
+                    <li className="font-montserrat font-bold text-[16px] text-[#4E4E4E] cursor-pointer hover:text-black">Home</li>
+                    <li className="font-montserrat font-bold text-[16px] text-[#4E4E4E] cursor-pointer hover:text-black ">Programs</li>
+                    <li className="font-montserrat font-bold text-[16px] text-[#4E4E4E] cursor-pointer hover:text-black ">How It Works</li>
+                    <li className="font-montserrat font-bold text-[16px] text-[#4E4E4E] cursor-pointer hover:text-black li ">Testimonial</li>
+                    <li className="font-montserrat font-bold text-[16px] text-[#4E4E4E] cursor-pointer hover:text-black ">About</li>
                 </ul>
 
 
@@ -65,7 +65,7 @@ const Navbar = () => {
                 <li>Testimonial</li>
                 <li>About</li>
 
-                <button className="border-2 border-black px-6 py-2 rounded-full cursor-pointer">
+                <button className="border-2 border-black px-6 py-2 rounded-full ">
                     Contact Us
                 </button>
 

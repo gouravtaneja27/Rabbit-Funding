@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Logo } from "./common/Icon";
+import Button from "./common/Button";
 
 const Navbar = () => {
     const [menu, setMenu] = useState(false);
@@ -19,9 +20,12 @@ const Navbar = () => {
                     <li className="font-montserrat  text-[16px] text-[#4E4E4E] cursor-pointer hover:text-black ">About</li>
                 </ul>
 
-                <button className="w-[155px] h-[56px] hidden min-[900px]:block cursor-pointer border-2 border-[#2B2B2B] px-6 py-2 rounded-full hover:bg-green-600 hover:text-white transition font-montserrat font-semibold text-[16px]">
+                {/* <button className="w-[155px] h-[56px] hidden min-[900px]:block cursor-pointer border-2 border-[#2B2B2B] px-6 py-2 rounded-full hover:bg-green-600 hover:text-white transition font-montserrat font-semibold text-[16px]">
                     Contact Us
-                </button>
+                </button> */}
+                <Button text="Contact Us" className="w-[155px] h-[56px] hidden min-[900px]:block cursor-pointer border-2 border-[#2B2B2B] px-6 py-2 rounded-full hover:bg-green-600 hover:text-white transition font-montserrat font-semibold text-[16px]">
+                    
+                </Button>
 
                 <div
                     className="min-[900px]:hidden flex flex-col gap-[5px] cursor-pointer relative z-[60]"
@@ -46,7 +50,7 @@ const Navbar = () => {
                 <button className="border-2 border-black px-6 py-2 rounded-full cursor-pointer ">
                     Contact Us
                 </button>
-                
+
             </div>
 
         </div>

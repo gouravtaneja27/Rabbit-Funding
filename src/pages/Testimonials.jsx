@@ -3,6 +3,7 @@ import i1 from "../assets/i1.png";
 import i2 from "../assets/i2.png";
 import i3 from "../assets/i3.png";
 import i4 from "../assets/i4.png";
+import { Stars } from "../component/common/Icon";
 
 const testimonials = [
     {
@@ -52,16 +53,7 @@ const Testimonials = () => {
 
 
                             <div className="flex mb-3">
-                                <svg width="136" height="24" viewBox="0 0 136 24" fill="none">
-                                    {[0, 28, 56, 84, 112].map((x, i) => (
-                                        <path
-                                            key={i}
-                                            transform={`translate(${x})`}
-                                            d="M11.9999 18.26L4.94691 22.208L6.52191 14.28L0.586914 8.792L8.61391 7.84L11.9999 0.5L15.3859 7.84L23.4129 8.792L17.4779 14.28L19.0529 22.208L11.9999 18.26Z"
-                                            fill="#FFB74D"
-                                        />
-                                    ))}
-                                </svg>
+                                <Stars />
                             </div>
 
 

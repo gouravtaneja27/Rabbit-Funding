@@ -1,8 +1,3 @@
-
-
-
-
-
 import React from "react";
 import p from "../assets/p.webp";
 const Hero = () => {

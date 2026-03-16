@@ -6,10 +6,7 @@ import WhoBehind from './pages/WhoBehind'
 import Testimonials from './pages/Testimonials'
 import WorkedRabbit from './pages/WorkedRabbit'
 import Footer from './component/Footer'
-
-
-
-
+import RealFunding from './pages/RealFunding'
 
 function App() {
 
@@ -23,7 +20,9 @@ function App() {
         <WhoBehind />
         <Testimonials />
         <WorkedRabbit />
+        <RealFunding />
         <Footer />
+        
       </div>
       
    

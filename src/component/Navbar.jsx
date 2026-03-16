@@ -19,7 +19,7 @@ const Navbar = () => {
                         <NavLink
                             to="/"
                             className={({ isActive }) =>
-                                `font-montserrat text-[16px] cursor-pointer hover:text-black ${isActive ? "text-[#2B2B2B]" : "text-[#4E4E4E]"
+                                `font-montserrat text-[16px] cursor-pointer hover:text-black ${isActive ? "text-[#2B2B2B]! font-semibold" : "text-[#4E4E4E]"
                                 }`
                             }
                         >
@@ -31,7 +31,7 @@ const Navbar = () => {
                         <NavLink
                             to="/programs"
                             className={({ isActive }) =>
-                                `font-montserrat text-[16px] cursor-pointer hover:text-black ${isActive ? "text-[#2B2B2B]" : "text-[#4E4E4E]"
+                                `font-montserrat text-[16px] cursor-pointer hover:text-[#2b2b2b] ${isActive ? "text-[#2B2B2B]! font-semibold" : "text-[#4E4E4E]"
                                 }`
                             }
                         >
@@ -43,7 +43,7 @@ const Navbar = () => {
                         <NavLink
                             to="/how-it-works"
                             className={({ isActive }) =>
-                                `font-montserrat text-[16px] cursor-pointer hover:text-black ${isActive ? "text-[#2B2B2B]" : "text-[#4E4E4E]"
+                                `font-montserrat text-[16px] cursor-pointer hover:text-black ${isActive ? "text-[#2B2B2B]! font-semibold " : "text-[#4E4E4E]"
                                 }`
                             }
                         >
@@ -55,7 +55,7 @@ const Navbar = () => {
                         <NavLink
                             to="/testimonial"
                             className={({ isActive }) =>
-                                `font-montserrat text-[16px] cursor-pointer hover:text-black ${isActive ? "text-[#2B2B2B]" : "text-[#4E4E4E]"
+                                `font-montserrat text-[16px] cursor-pointer hover:text-black ${isActive ? "text-[#2B2B2B]! font-semibold " : "text-[#4E4E4E]"
                                 }`
                             }
                         >
@@ -67,7 +67,7 @@ const Navbar = () => {
                         <NavLink
                             to="/about"
                             className={({ isActive }) =>
-                                `font-montserrat text-[16px] cursor-pointer hover:text-black ${isActive ? "text-[#2B2B2B]" : "text-[#4E4E4E]"
+                                `font-montserrat text-[16px] cursor-pointer hover:text-black ${isActive ? "text-[#2B2B2B]! font-semibold " : "text-[#4E4E4E]"
                                 }`
                             }
                         >

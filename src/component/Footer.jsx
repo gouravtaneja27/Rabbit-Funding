@@ -4,7 +4,7 @@ const Footer = () => {
     const date = new Date().getFullYear();
 
     return (
-        <div className="  w-full  bg-[#F5F5F5] mt-99.5 px-4">
+        <div className="  w-full  bg-[#F5F5F5] mt-99.5 ">
           
             <div className="max-w-285 mx-auto relative flex flex-col items-center pt-50 gap-15 ">
                 <a href="/" className="max-w-74.5 w-full max-h-34 ">
@@ -62,12 +62,12 @@ const Footer = () => {
 
                     </div>
                 </div>
-                <div className="text-center pb-3.5 w-full flex flex-col gap-4 px-4">
-                    <span className="border border-primary opacity-10 w-full "></span>
-                    <p>© {date} Rabbit Funding, LLC. All rights reserved.</p>
-                </div>
+                
             </div>
-            
+            <div className="text-center pb-3.5 w-full mt-7 sm:mt-15 flex flex-col gap-4 px-4">
+                <span className="border border-primary opacity-10 w-full "></span>
+                <p>© {date} Rabbit Funding, LLC. All rights reserved.</p>
+            </div>
         </div>
     );
 };

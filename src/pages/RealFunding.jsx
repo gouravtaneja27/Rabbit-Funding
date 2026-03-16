@@ -4,9 +4,6 @@ import { Real_List } from "../utils/helper";
 import ii1 from "../assets/ii1.png";
 import {  Aro} from "../component/common/Icon";
 import Button from "../component/common/Button";
-import img2 from "../assets/img2.png";
-import img3 from "../assets/img3.png";
-import img33 from "../assets/img33.png";
 import Card from "../component/common/Cards";
 
 
@@ -15,7 +12,7 @@ import Card from "../component/common/Cards";
 const RealFunding= () => {
     return (
         <div className="w-full mx-auto   px-4 bg-white ">
-            <div className="max-w-285 mx-auto flex flex-col gap-15 items-center relative text-left lg:text-center">
+            <div className="max-w-285 mx-auto flex flex-col gap-15 items-center relative text-left lg:text-left">
                 <Heading
                     h2={"Real Stories. Real Funding."}
                     parentCss={"gap-3 items-center"}
@@ -36,8 +33,7 @@ const RealFunding= () => {
                        
                     ))}
                 </div>
-                <div
-                    className="max-w-285 w-full absolute mx-auto items-center flex flex-col text-center rounded-3xl text-white  -bottom-126 lg:max-h-82 overflow-hidden"
+                <div className="max-w-285 w-full absolute mx-auto items-center flex flex-col text-center rounded-3xl text-white  lg:-bottom-126 md:-bottom-100 -bottom-75 lg:max-h-82 overflow-hidden"
                     style={{
                         background: "linear-gradient(to bottom, #7AC943, #4CAF50)",
                     }}

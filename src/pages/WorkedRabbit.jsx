@@ -1,10 +1,12 @@
 import React from "react";
 import rabbit from "../assets/rabbit.png";
+import Button from "../component/common/Button";
+import { Aro } from "../component/common/Icon";
 
 
 const WorkedRabbit = () => {
     return (
-        <section className="w-full py-24 bg-[#EAF3E5] relative overflow-hidden">
+        <section className="w-full py-24 bg-[#EAF3E5] relative overflow-hidden py-42.5">
 
             
            
@@ -13,8 +15,10 @@ const WorkedRabbit = () => {
                 <img
                     src={rabbit}
                     alt="rabbit"
-                    className="absolute inset-0 m-auto opacity-10    pointer-events-none"
+                    className="absolute inset-0 m-auto opacity-5    pointer-events-none"
                 />
+             {/* <Rabbit className="absolute inset-0 m-auto opacity-10    pointer-events-none" /> */}
+
 
                 <h2 className="text-[32px] lg:text-[40px] font-bold text-[#2B2B2B]">
                     Worked With Rabbit?
@@ -26,10 +30,8 @@ const WorkedRabbit = () => {
                     and help others fund their story.
                 </p>
 
-                <button className="mt-8 px-8 py-4 rounded-full bg-[#7AC943] text-white font-medium flex items-center gap-2 mx-auto hover:bg-transparent border border-transparent hover:border-[#2B2B2B] hover:text-[#2B2B2B] transition-all duration-300">
-                    Share Yours
-                    <span>↗</span>
-                </button>
+                <Button text="Share Yours" className="mt-8 px-8 py-4 rounded-full bg-[#7AC943] cursor-pointer text-white font-medium flex items-center gap-2 mx-auto hover:bg-transparent border border-transparent hover:border-[#2B2B2B] hover:text-[#2B2B2B] transition-all duration-300" icon={<Aro />}></Button>
+
 
             </div>
 

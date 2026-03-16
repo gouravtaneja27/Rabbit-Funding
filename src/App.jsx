@@ -5,6 +5,7 @@ import BetterTech from './pages/BetterTech'
 import WhoBehind from './pages/WhoBehind'
 import Testimonials from './pages/Testimonials'
 import WorkedRabbit from './pages/WorkedRabbit'
+import Footer from './component/Footer'
 
 
 
@@ -21,7 +22,8 @@ function App() {
         <BetterTech />
         <WhoBehind />
         <Testimonials />
-        {/* <WorkedRabbit /> */}
+        <WorkedRabbit />
+        <Footer />
       </div>
       
    

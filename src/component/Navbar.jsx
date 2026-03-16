@@ -19,12 +19,8 @@ const Navbar = () => {
                     <li className="font-montserrat  text-[16px] text-[#4E4E4E] cursor-pointer hover:text-black li ">Testimonial</li>
                     <li className="font-montserrat  text-[16px] text-[#4E4E4E] cursor-pointer hover:text-black ">About</li>
                 </ul>
-
-                {/* <button className="w-[155px] h-[56px] hidden min-[900px]:block cursor-pointer border-2 border-[#2B2B2B] px-6 py-2 rounded-full hover:bg-green-600 hover:text-white transition font-montserrat font-semibold text-[16px]">
-                    Contact Us
-                </button> */}
                 <Button text="Contact Us" className="w-[155px] h-[56px] hidden min-[900px]:block cursor-pointer border-2 border-[#2B2B2B] px-6 py-2 rounded-full hover:bg-green-600 hover:text-white transition font-montserrat font-semibold text-[16px]">
-                    
+
                 </Button>
 
                 <div
@@ -46,13 +42,8 @@ const Navbar = () => {
                 <li>How It Works</li>
                 <li>Testimonial</li>
                 <li>About</li>
-
-                <button className="border-2 border-black px-6 py-2 rounded-full cursor-pointer ">
-                    Contact Us
-                </button>
-
+                <Button text="Contact Us" className="border-2 border-black px-6 py-2 rounded-full cursor-pointer "></Button>
             </div>
-
         </div>
     );
 };

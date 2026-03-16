@@ -2,11 +2,12 @@ import React from "react";
 import rabbit from "../assets/rabbit.png";
 import Button from "../component/common/Button";
 import { Aro } from "../component/common/Icon";
+// import RealFunding from "./RealFunding";
 
 
 const WorkedRabbit = () => {
     return (
-        <section className="w-full py-24 bg-[#EAF3E5] h-[673px] relative overflow-hidden py-42.5 mt-10">
+        <section className="w-full mx-auto bg-[linear-gradient(to_bottom,#e8f5e0_0%,#f0f9ea_40%,white_100%)] relative overflow-hidden py-16 md:py-24 lg:py-32">
 
             
            
@@ -34,6 +35,7 @@ const WorkedRabbit = () => {
 
 
             </div>
+            {/* <RealFunding /> */}
 
         </section>
     );

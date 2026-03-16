@@ -14,8 +14,8 @@ import Card from "../component/common/Cards";
 
 const RealFunding= () => {
     return (
-        <div className="w-full mx-auto lg:mt-42.5 mt-10 px-4">
-            <div className="max-w-285 w-full mx-auto flex flex-col gap-15 items-center relative lg:text-left text-center">
+        <div className="w-full mx-auto   px-4 bg-white ">
+            <div className="max-w-285 mx-auto flex flex-col gap-15 items-center relative text-left lg:text-center">
                 <Heading
                     h2={"Real Stories. Real Funding."}
                     parentCss={"gap-3 items-center"}
@@ -24,7 +24,7 @@ const RealFunding= () => {
                     }
                     pCss={"max-w-[590px] w-full text-center"}
                 />
-                <div className="grid md:grid-cols-3 gap-6 md:px-0 px-6">
+                <div className="grid md:grid-cols-3 gap-6 md:px-0 px-6 ">
                     {Real_List.map((item, index) => (
                        
                             <Card key={index}
@@ -52,7 +52,7 @@ const RealFunding= () => {
                             opacity: 0.5,
                         }}
                     />
-                    <div className="relative z-10 max-w-189.5 w-full flex flex-col px-4 items-center mt-15 mb-15 px-">
+                    <div className="relative z-10 max-w-189.5 w-full flex flex-col px-4 items-center md:top-0 mt-15 mb-15.5 px-">
                         <h4 className="lg:text-custom-3xl md:text-3xl text-2xls font-bold leading-[120%]">
                             Love what Rabbit Did for You! <br /> Share your story and help
                             others discover human-first funding.

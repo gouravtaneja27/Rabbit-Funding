@@ -43,9 +43,9 @@ const BetterTech = () => {
             <div className="max-w-[1208px]   mx-auto ">
 
                
-                <h2 className="w-full text-center font-montserrat font-bold text-[24px] sm:text-[32px] md:text-[40px] lg:text-[48px] leading-[120%] tracking-normal text-[#2B2B2B]">
+                <h1 className="w-full text-center font-montserrat font-bold  sm:text-[32px] md:text-[40px] lg:text-[48px] leading-[120%] tracking-normal text-[#2B2B2B]">
                     Better Tech. Better Team. Better Lending
-                </h2>
+                </h1>
 
              
                 <div className="max-w-[1208px] h-[264px] mx-auto grid grid-cols-2 lg:grid-cols-4 gap-[40px] mt-12  text-center">

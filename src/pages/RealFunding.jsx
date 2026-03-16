@@ -1,9 +1,14 @@
 import Cards from "../component/common/Cards";
 import Heading from "../component/common/Heading";
 import { Real_List } from "../utils/helper";
-
+import ii1 from "../assets/ii1.png";
 import {  Aro} from "../component/common/Icon";
 import Button from "../component/common/Button";
+import img2 from "../assets/img2.png";
+import img3 from "../assets/img3.png";
+import img33 from "../assets/img33.png";
+import Card from "../component/common/Cards";
+
 
 
 
@@ -21,13 +26,14 @@ const RealFunding= () => {
                 />
                 <div className="grid md:grid-cols-3 gap-6 md:px-0 px-6">
                     {Real_List.map((item, index) => (
-                        <div key={index} className="flex ">
-                            <Cards
+                       
+                            <Card key={index}
+                                image={item.img}
                                 desc={item.desc}
                                 name={item.name}
                                 profession={item.profession}
                             />
-                        </div>
+                       
                     ))}
                 </div>
                 <div
@@ -39,7 +45,7 @@ const RealFunding= () => {
                     <div
                         className="absolute inset-0 rounded-3xl"
                         style={{
-                            backgroundImage: "url(/assets/Images/Png/Bg-img2.png)",
+                            backgroundImage: `url(${ii1})`,
                             backgroundSize: "cover",
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
@@ -54,7 +60,7 @@ const RealFunding= () => {
              
                         <Button
                             text="Submit Your Testimonial"
-                            className="flex items-center gap-2 py-3 md:py-4 px-5 md:px-8 mt-8 rounded-full bg-dark-green text-white border border-black/20 hover:bg-green transition-all duration-300 cursor-pointer  "
+                            className="flex items-center gap-2 py-3 md:py-4 px-5 md:px-8 mt-8 rounded-full bg-[#010101]/20 text-white  transition-all duration-300 cursor-pointer  "
                             icon={<Aro />}
                         />
                     </div>

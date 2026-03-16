@@ -5,11 +5,13 @@ const Footer = () => {
 
     return (
         <div className="w-full bg-ternary mt-99.5 px-4">
+          
             <div className="max-w-285 mx-auto relative flex flex-col items-center pt-50 gap-15 ">
                 <a href="/" className="max-w-74.5 w-full max-h-34 ">
-               <Logos />
+                    <Logos />
                 </a>
-                <div className="grid lg:grid-cols-4 sm:grid-cols-2 gap-6  w-full px-4">
+
+                <div className="grid lg:grid-cols-4 sm:grid-cols-2 gap-6 max-w-[996px] min-h-[200px] w-full mx-auto">
                     <div className="flex flex-col gap-3">
                         <span className="text-secondary font-semibold">
                             Rated 4.9 on trustpilot.
@@ -41,7 +43,7 @@ const Footer = () => {
                             <li className="">
                                 <a
                                     href="mailto:Admin@rabbitfunding.io"
-                                    className="flex gap-2 group"
+                                    className="flex gap-2 group underline"
                                 >
                                    
                                     <Mail className={"group-hover:fill-[#5daf50]"} />
@@ -58,11 +60,12 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="text-center pb-3.5 w-screen flex flex-col gap-4 px-4">
+                <div className="text-center pb-3.5 w-full flex flex-col gap-4 px-4">
                     <span className="border border-primary opacity-10 w-full"></span>
                     <p>© {date} Rabbit Funding, LLC. All rights reserved.</p>
                 </div>
             </div>
+            
         </div>
     );
 };

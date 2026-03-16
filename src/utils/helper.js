@@ -1,18 +1,25 @@
+import img2 from "../assets/img2.png";
+import img3 from "../assets/img3.png";
+import img33 from "../assets/img33.png";
+
 export const Real_List = [
     {
         name: "Karina M.",
         profession: "Beauty Business, Miami FL",
         desc: "I needed $75K to build out my second salon. Rabbit gave me the offer same day.",
+        img: "src/assets/img2.png",
     },
     {
         name: "Dave R.",
         profession: "Landscaping Contractor, Dallas TX",
         desc: "They looked at my actual business, not just my credit. We’ve grown 30% since funding.",
+        img: "src/assets/img3.png",
     },
     {
         name: "Malik J.",
         profession: "Food Truck Owner, Chicago IL",
         desc: "It felt more like a conversation than an application. I was approved in hours.",
+        img: "src/assets/img33.png",
     },
 ];
 

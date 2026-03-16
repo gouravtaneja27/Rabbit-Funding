@@ -6,18 +6,18 @@ import { Aro } from "../component/common/Icon";
 
 const WorkedRabbit = () => {
     return (
-        <section className="w-full py-24 bg-[#EAF3E5] relative overflow-hidden py-42.5">
+        <section className="w-full py-24 bg-[#EAF3E5] h-[673px] relative overflow-hidden py-42.5 mt-10">
 
             
            
 
-            <div className="max-w-[1200px] mx-auto px-6 text-center relative z-10">
+            <div className="max-w-[1200px] mx-auto  px-6 text-center relative z-10">
                 <img
                     src={rabbit}
                     alt="rabbit"
                     className="absolute inset-0 m-auto opacity-5    pointer-events-none"
                 />
-             {/* <Rabbit className="absolute inset-0 m-auto opacity-10    pointer-events-none" /> */}
+            
 
 
                 <h2 className="text-[32px] lg:text-[40px] font-bold text-[#2B2B2B]">

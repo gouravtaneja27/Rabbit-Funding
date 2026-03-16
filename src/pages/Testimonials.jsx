@@ -38,7 +38,7 @@ const Testimonials = () => {
             <div className="max-w-[1190px] mx-auto px-6">
 
 
-                <h2 className="text-center font-['Montserrat'] font-bold text-[28px] sm:text-[36px] lg:text-[48px] leading-[120%] text-[#2B2B2B]">
+                <h2 className="text-center font-['Montserrat'] font-bold text-[16px] sm:text-[36px] lg:text-[48px] leading-[120%] text-[#2B2B2B] ">
                     Real People. Real Results.
                 </h2>
 
@@ -48,7 +48,7 @@ const Testimonials = () => {
                     {testimonials.map((item, index) => (
                         <div
                             key={index}
-                            className="bg-white rounded-3xl p-6 shadow-[0px_4px_20px_rgba(0,0,0,0.06)] flex flex-col w-full max-w-[558px] h-[394px]"
+                            className="bg-white rounded-3xl p-6 shadow-[0px_4px_20px_rgba(0,0,0,0.06)] flex flex-col w-full max-w-[558px] min-h-[394px]"
                         >
 
 
@@ -57,7 +57,7 @@ const Testimonials = () => {
                             </div>
 
 
-                            <p className=" text-[14px] leading-[150%] text-[#4E4E4E]">
+                            <p className=" text-base leading-[150%] text-[#4E4E4E]">
                                 {item.text}
                             </p>
 
@@ -66,7 +66,7 @@ const Testimonials = () => {
                                 <img
                                     src={item.img}
                                     alt={item.name}
-                                    className="w-10 h-10 rounded-full object-cover"
+                                    className="w-12.5 h-12.5 rounded-full object-cover"
                                 />
 
                                 <div>

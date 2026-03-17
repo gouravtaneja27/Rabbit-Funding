@@ -1,15 +1,11 @@
-import Cards from "../component/common/Cards";
+import Cards from "../component/common/Card";
 import Heading from "../component/common/Heading";
 import { Real_List } from "../utils/helper";
 import ii1 from "../assets/ii1.png";
-import {  Aro} from "../component/common/Icon";
+import { Aro } from "../component/common/Icon";
 import Button from "../component/common/Button";
-import Card from "../component/common/Cards";
-
-
-
-
-const RealFunding= () => {
+import Card from "../component/common/Card";
+const RealFunding = () => {
     return (
         <div className="w-full mx-auto   px-4 bg-white ">
             <div className="max-w-285 mx-auto flex flex-col gap-15 items-center relative text-left lg:text-left">
@@ -23,14 +19,12 @@ const RealFunding= () => {
                 />
                 <div className="grid md:grid-cols-3 gap-6 md:px-0 px-6 ">
                     {Real_List.map((item, index) => (
-                       
-                            <Card key={index}
-                                image={item.img}
-                                desc={item.desc}
-                                name={item.name}
-                                profession={item.profession}
-                            />
-                       
+                        <Card key={index}
+                            image={item.img}
+                            desc={item.desc}
+                            name={item.name}
+                            profession={item.profession}
+                        />
                     ))}
                 </div>
                 <div className="max-w-285 w-full absolute mx-auto items-center flex flex-col text-center rounded-3xl text-white  lg:-bottom-126 md:-bottom-100 -bottom-75 lg:max-h-82 overflow-hidden"
@@ -53,7 +47,7 @@ const RealFunding= () => {
                             Love what Rabbit Did for You! <br /> Share your story and help
                             others discover human-first funding.
                         </h4>
-             
+
                         <Button
                             text="Submit Your Testimonial"
                             className="flex items-center gap-2 py-3 md:py-4 px-5 md:px-8 mt-8 rounded-full bg-[#010101]/20 text-white  transition-all duration-300 cursor-pointer  "
@@ -65,5 +59,4 @@ const RealFunding= () => {
         </div>
     );
 };
-
 export default RealFunding;

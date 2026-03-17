@@ -1,6 +1,5 @@
 import { Footer_links } from "../utils/helper";
-import {  Location, Logo, Logos, Mail, Phone, TrustPiolet } from "./common/Icon";
-
+import {  Location, Logos, Mail, Phone, TrustPiolet } from "./common/Icon";
 const Footer = () => {
     const date = new Date().getFullYear();
 

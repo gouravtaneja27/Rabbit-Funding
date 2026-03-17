@@ -6,5 +6,4 @@ const Heading = ({ h2, h2Css, p, pCss, parentCss }) => {
         </div>
     );
 };
-
 export default Heading;

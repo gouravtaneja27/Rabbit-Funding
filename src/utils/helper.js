@@ -1,7 +1,3 @@
-import img2 from "../assets/img2.png";
-import img3 from "../assets/img3.png";
-import img33 from "../assets/img33.png";
-
 export const Real_List = [
     {
         name: "Karina M.",
@@ -22,7 +18,6 @@ export const Real_List = [
         img: "src/assets/img33.png",
     },
 ];
-
 export const FOOTER_LINKS = [
     {
         title: "Quick Links",
@@ -33,9 +28,6 @@ export const FOOTER_LINKS = [
         links: ["Terms & Conditions", "Privacy Policy"],
     },
 ];
-
-
-
 export const Footer_links = [
     {
         title: "Quick Links",

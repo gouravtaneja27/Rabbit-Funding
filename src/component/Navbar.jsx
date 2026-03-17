@@ -1,9 +1,7 @@
-
 import React, { useState, useEffect } from "react";
 import { Logo } from "./common/Icon";
 import Button from "./common/Button";
 import { NavLink } from "react-router-dom";
-
 const Navbar = () => {
     const [menu, setMenu] = useState(false);
 
@@ -14,15 +12,12 @@ const Navbar = () => {
             document.body.style.overflow = "auto";
         }
     }, [menu]);
-
     return (
         <div className="max-w-360 w-full m-auto relative">
-
             <div className="max-w-300 m-auto flex items-center justify-between py-5 px-4 ">
                 <div className="flex items-center gap-2">
                     <Logo />
                 </div>
-
                 <ul className="hidden min-[900px]:flex gap-6 text-gray-700 font-medium">
                     <li>
                         <NavLink
@@ -35,7 +30,6 @@ const Navbar = () => {
                             Home
                         </NavLink>
                     </li>
-
                     <li>
                         <NavLink
                             to="/programs"
@@ -59,7 +53,6 @@ const Navbar = () => {
                             How It Works
                         </NavLink>
                     </li>
-
                     <li>
                         <NavLink
                             to="/testimonial"
@@ -71,7 +64,6 @@ const Navbar = () => {
                             Testimonial
                         </NavLink>
                     </li>
-
                     <li>
                         <NavLink
                             to="/about"
@@ -96,9 +88,7 @@ const Navbar = () => {
                     <span className={`block w-6 h-[3px] bg-black transition-all duration-300 ${menu ? "opacity-0" : ""}`}></span>
                     <span className={`block w-6 h-[3px] bg-black transition-all duration-300 ${menu ? "-rotate-45 -translate-y-[8px]" : ""}`}></span>
                 </div>
-
             </div>
-
             <div
                 className={`fixed top-0 left-0 w-full h-screen bg-[#ECEFEC] z-50 flex flex-col items-center justify-center gap-8 transition-transform list-none duration-500 ${menu ? "translate-x-0" : "-translate-x-full"
                     } min-[900px]:hidden`}
@@ -108,10 +98,8 @@ const Navbar = () => {
                 <NavLink to="/how-it-works" onClick={() => setMenu(false)}>How It Works</NavLink>
                 <NavLink to="/testimonial" onClick={() => setMenu(false)}>Testimonial</NavLink>
                 <NavLink to="/about" onClick={() => setMenu(false)}>About</NavLink>
-
                 <Button text="Contact Us" className="border-2 border-black px-6 py-2 rounded-full cursor-pointer "></Button>
             </div>
-
         </div>
     );
 };

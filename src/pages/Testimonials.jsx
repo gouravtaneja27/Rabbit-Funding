@@ -4,7 +4,6 @@ import i2 from "../assets/i2.png";
 import i3 from "../assets/i3.png";
 import i4 from "../assets/i4.png";
 import { Stars } from "../component/common/Icon";
-
 const testimonials = [
     {
         text: "They told me not to take the money. That’s when I knew they were the real deal. I came in looking for a quick MCA. Desperate to cover payroll, decent credit, but margins were razor-thin. Rabbit actually looked through my statements — and told me not to take the deal. They didn’t pitch a workaround. They didn’t try to ‘make it fit.’ They just explained the risk, broke down the cash flow, and told me to wait. No one else would’ve done that. That advice alone probably saved my business.",
@@ -31,58 +30,42 @@ const testimonials = [
         img: i4,
     },
 ];
-
 const Testimonials = () => {
     return (
         <div className="w-full bg-[#F6F6F6] py-20">
             <div className="max-w-[1190px] mx-auto px-6">
-
-
                 <h2 className="text-center font-['Montserrat'] font-bold text-[16px] sm:text-[36px] lg:text-[48px] leading-[120%] text-[#2B2B2B] ">
                     Real People. Real Results.
                 </h2>
-
-
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-14">
-
                     {testimonials.map((item, index) => (
                         <div
                             key={index}
                             className="bg-white rounded-3xl p-6 shadow-[0px_4px_20px_rgba(0,0,0,0.06)] flex flex-col w-full max-w-[558px] min-h-[394px]"
                         >
-
-
                             <div className="flex mb-3">
                                 <Stars />
                             </div>
-
-
                             <p className=" text-base leading-[150%] text-[#4E4E4E]">
                                 {item.text}
                             </p>
-
-
                             <div className="flex items-center border-t border-[#2B2B2B]/10 gap-3 mt-auto pt-6">
                                 <img
                                     src={item.img}
                                     alt={item.name}
                                     className="w-12.5 h-12.5 rounded-full object-cover"
                                 />
-
                                 <div>
                                     <h4 className="font-semibold text-[14px] text-[#2B2B2B]">
                                         {item.name}
                                     </h4>
-
                                     <p className="text-[12px] text-[#7A7A7A]">
                                         {item.role}
                                     </p>
                                 </div>
                             </div>
-
                         </div>
                     ))}
-
                 </div>
             </div>
         </div>

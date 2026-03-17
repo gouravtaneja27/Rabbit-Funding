@@ -1,24 +1,24 @@
-import { useState } from 'react'
-import Hero from './sections/Hero'
-import BetterTech from './sections/BetterTech'
-import WhoBehind from './sections/WhoBehind'
-import Testimonials from './sections/Testimonials'
-import WorkedRabbit from './sections/WorkedRabbit'
-import Footer from './component/common/Footer'
-import RealFunding from './sections/RealFunding'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import Navbar from "./component/common/Navbar";
+import Home from "./pages/Home";
+import Programs from "./pages/Programs";
+import HowItWorks from "./pages/HowItWorks";
+import Testimonial from "./pages/Testimonial";
+import About from "./pages/About";
+
 function App() {
   return (
-    <div className="w-full ">
-      <Hero />
-      <BetterTech />
-      <WhoBehind />
-      <Testimonials />
-      <WorkedRabbit />
-      <RealFunding />
-      <Footer />
-
-    </div>
-  )
+    <>
+      {/* <Navbar /> */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/programs" element={<Programs />} />
+        <Route path="/how-it-works" element={<HowItWorks />} />
+        <Route path="/testimonial" element={<Testimonial />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </>
+  );
 }
 
-export default App
+export default App;

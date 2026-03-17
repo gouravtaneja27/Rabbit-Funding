@@ -33,9 +33,8 @@ const Footer = () => {
                     <div className="md:flex flex-col gap-3 hidden ">
                         <h3 className="text-secondary font-semibold">Contact</h3>
                         <ul className="gap-3 flex flex-col">
-                            <li>
-                                <Phone className={"group-hover:fill-[#5daf50 ]"} />
-                                                            520-702-5510
+                            <li className="flex gap-1.5">
+                                <Phone className={"group-hover:fill-[#5daf50 ]"} /> 520-702-5510
                             </li>
                             <li className="">
                                 <a

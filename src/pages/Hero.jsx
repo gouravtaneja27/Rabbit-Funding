@@ -5,7 +5,7 @@ import { Aro } from "../component/common/Icon";
 import Navbar from "../component/Navbar";
 const Hero = () => {
     return (
-        <div className="max-w-360 m-auto w-full  mb-22.5 bg-[linear-gradient(180deg,rgba(76,175,80,0.1)_0%,rgba(76,175,80,0)_100%)] ">
+        <div className=" m-auto w-full  mb-22.5 bg-[linear-gradient(180deg,rgba(76,175,80,0.1)_0%,rgba(76,175,80,0)_100%)] ">
 <Navbar />
 
             <div className="px-4 lg:px-2 max-w-300 m-auto flex flex-col lg:flex-row items-center justify-between lg:gap-0 gap-10 w-full">

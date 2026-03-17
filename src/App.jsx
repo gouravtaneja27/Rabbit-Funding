@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <div className="w-full bg-gradient-to-b from-[rgba(76,175,80,0.1)] to-[rgba(76,175,80,0)]">
+      <div className="w-full ">
         {/* <Navbar /> */}
         <Hero />
         <BetterTech />

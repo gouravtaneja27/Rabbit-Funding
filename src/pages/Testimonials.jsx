@@ -1,33 +1,33 @@
 import React from "react";
-import i1 from "../assets/i1.png";
-import i2 from "../assets/i2.png";
-import i3 from "../assets/i3.png";
-import i4 from "../assets/i4.png";
+import profile1 from "../assets/images/profile1.png";
+import profile2 from "../assets/images/profile2.png";
+import profile3 from "../assets/images/profile3.png";
+import profile4 from "../assets/images/profile4.png";
 import { Stars } from "../component/common/Icon";
 const testimonials = [
     {
         text: "They told me not to take the money. That’s when I knew they were the real deal. I came in looking for a quick MCA. Desperate to cover payroll, decent credit, but margins were razor-thin. Rabbit actually looked through my statements — and told me not to take the deal. They didn’t pitch a workaround. They didn’t try to ‘make it fit.’ They just explained the risk, broke down the cash flow, and told me to wait. No one else would’ve done that. That advice alone probably saved my business.",
         name: "Mike T.",
         role: "Fabrication Shop Owner, TX",
-        img: i1,
+        img: profile1,
     },
     {
         text: "We came for a loan. They gave us a strategy. We were asking for funding. Rabbit told us we didn’t need a loan — we needed to stop waiting 60 days to get paid. They helped us switch to invoice factoring. At first, we were hesitant. Now we get paid the same week the job ends, and payroll's no longer a stress point. They didn’t just fund us — they fixed our cash flow.",
         name: "Reggie D.",
         role: "Commercial Painting, IL",
-        img: i2,
+        img: profile2,
     },
     {
         text: "Out of the blue, Emile asked if I owned any property — and it saved me. I run three salons. Business was booming, but I got tricked into a high-interest MCA by a broker who promised the world. Payments were crushing me. Out of nowhere, Emile asked if I owned any real estate — I said yes, and he begged me to refinance. Rabbit helped me use a DSCR loan to pay off the debt.",
         name: "Tameka R.",
         role: "Salon Owner, GA",
-        img: i3,
+        img: profile3,
     },
     {
         text: "They built a payment plan around my slow season.I run an event rental company — winter is brutal.Every lender I spoke to offered cookie- cutter terms that didn’t match how my cash flows.Rabbit actually listened.They structured a step - up repayment plan that gave me a cushion during the slow months and scaled when things picked back up.I stayed current, grew the business, and didn’t lose my mind in January.Nobody else is underwriting like this.",
         name: "Vanessa C.",
         role: "Event Rentals, NJ",
-        img: i4,
+        img: profile4,
     },
 ];
 const Testimonials = () => {

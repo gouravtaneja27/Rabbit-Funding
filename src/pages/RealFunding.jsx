@@ -1,7 +1,7 @@
 import Cards from "../component/common/Card";
 import Heading from "../component/common/Heading";
 import { Real_List } from "../utils/helper";
-import ii1 from "../assets/ii1.png";
+import ii1 from "../assets/images/ii1.png";
 import { Aro } from "../component/common/Icon";
 import Button from "../component/common/Button";
 import Card from "../component/common/Card";

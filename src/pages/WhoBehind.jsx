@@ -1,5 +1,5 @@
 import React from "react";
-import g from "../assets/g.png"; 
+import g from "../assets/images/g.png"; 
 
 const WhoBehind = () => {
     return (

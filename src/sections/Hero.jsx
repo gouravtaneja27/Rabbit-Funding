@@ -2,7 +2,7 @@ import React from "react";
 import p from "../assets/webp/group2.webp";
 import Button from "../component/common/Button";
 import { Aro } from "../component/common/Icon";
-import Navbar from "../component/Navbar";
+import Navbar from "../component/common/Navbar";
 const Hero = () => {
     return (
         <div className=" m-auto w-full  mb-22.5 bg-[linear-gradient(180deg,rgba(76,175,80,0.1)_0%,rgba(76,175,80,0)_100%)] ">

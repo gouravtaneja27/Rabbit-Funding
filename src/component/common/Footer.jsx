@@ -1,5 +1,5 @@
-import { Footer_links } from "../utils/helper";
-import {  Location, Logos, Mail, Phone, TrustPiolet } from "./common/Icon";
+import { Footer_links } from "../../utils/helper";
+import { Location, Logos, Mail, Phone, TrustPiolet } from "./Icon";
 const Footer = () => {
     const date = new Date().getFullYear();
 
@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="w-full bg-[#F5F5F5] md:mt-99.5 mt-45 px-4">
             <div className="max-w-285 mx-auto relative flex flex-col items-center pt-50 md:gap-15 ">
                 <a href="/" className="md:max-w-74.5 w-full max-h-34 flex items-start ">
-                 
+
                     <Logos />
                 </a>
                 <div className="grid lg:grid-cols-4 sm:grid-cols-2 gap-6  w-full">
@@ -37,20 +37,20 @@ const Footer = () => {
                             </li>
                             <li className="">
                                 <a
-                             href="mailto:Admin@rabbitfunding.io"
-                              className="flex gap-2 group underline"
-                           >
+                                    href="mailto:Admin@rabbitfunding.io"
+                                    className="flex gap-2 group underline"
+                                >
 
-                                <Mail className={"group-hover:fill-[#5daf50]"} />
-                                 Admin@rabbitfunding.io
-                              </a>
+                                    <Mail className={"group-hover:fill-[#5daf50]"} />
+                                    Admin@rabbitfunding.io
+                                </a>
                             </li>
                             <li className="">
                                 <a href="geo:NY" className="flex gap-2 group w-[247px] h-[24px]">
 
-                       <Location className={"group-hover:fill-[#5daf50] "} />
-                        28 Liberty St, NY, NY, 10005
-                       </a>
+                                    <Location className={"group-hover:fill-[#5daf50] "} />
+                                    28 Liberty St, NY, NY, 10005
+                                </a>
                             </li>
                         </ul>
                     </div>

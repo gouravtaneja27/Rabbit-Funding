@@ -4,7 +4,7 @@ import BetterTech from './sections/BetterTech'
 import WhoBehind from './sections/WhoBehind'
 import Testimonials from './sections/Testimonials'
 import WorkedRabbit from './sections/WorkedRabbit'
-import Footer from './component/Footer'
+import Footer from './component/common/Footer'
 import RealFunding from './sections/RealFunding'
 function App() {
   return (

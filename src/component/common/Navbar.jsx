@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Logo } from "./common/Icon";
-import Button from "./common/Button";
+import { Logo } from "./Icon";
+import Button from "./Button";
 import { NavLink } from "react-router-dom";
 const Navbar = () => {
     const [menu, setMenu] = useState(false);

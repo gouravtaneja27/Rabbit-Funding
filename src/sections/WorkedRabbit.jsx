@@ -1,10 +1,10 @@
 import React from "react";
-import rabbit from "../assets/rabbit.png";
+import rabbit from "../assets/images/rabbit.png";
 import Button from "../component/common/Button";
 import { Aro } from "../component/common/Icon";
 const WorkedRabbit = () => {
     return (
-        <section className="w-full mx-auto bg-[linear-gradient(to_bottom,#e8f5e0_0%,#f0f9ea_40%,white_100%)] relative overflow-hidden py-16 md:py-24 lg:py-32">    
+        <section className="w-full mx-auto bg-[linear-gradient(to_bottom,#e8f5e0_0%,#f0f9ea_40%,white_100%)] relative overflow-hidden py-16 md:py-24 lg:py-32">
             <div className="max-w-[1200px] mx-auto  px-6 text-center relative z-10">
                 <img
                     src={rabbit}

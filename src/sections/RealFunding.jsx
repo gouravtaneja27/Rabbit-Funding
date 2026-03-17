@@ -1,4 +1,3 @@
-import Cards from "../component/common/Card";
 import Heading from "../component/common/Heading";
 import { Real_List } from "../utils/helper";
 import ii1 from "../assets/images/bg.png";

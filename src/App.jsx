@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import Hero from './pages/Hero'
-import BetterTech from './pages/BetterTech'
-import WhoBehind from './pages/WhoBehind'
-import Testimonials from './pages/Testimonials'
-import WorkedRabbit from './pages/WorkedRabbit'
+import Hero from './sections/Hero'
+import BetterTech from './sections/BetterTech'
+import WhoBehind from './sections/WhoBehind'
+import Testimonials from './sections/Testimonials'
+import WorkedRabbit from './sections/WorkedRabbit'
 import Footer from './component/Footer'
-import RealFunding from './pages/RealFunding'
+import RealFunding from './sections/RealFunding'
 function App() {
   return (
     <div className="w-full ">

@@ -1,5 +1,5 @@
 import React from "react";
-import p from "../assets/p.webp";
+import p from "../assets/webp/group2.webp";
 import Button from "../component/common/Button";
 import { Aro } from "../component/common/Icon";
 import Navbar from "../component/Navbar";
